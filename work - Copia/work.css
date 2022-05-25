@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#page {
+    max-width: 1158px;
+    background-color: rgb(3, 51, 18);
+}
+
+header {
+    background-image: url(./imagens/banner.png);
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+}
+
+@media (max-width: 720px) {
+    #logo {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+}
+
+body {
+    background-image: url("./imagens/bg.png");
+    background-repeat: repeat;
+}
+nav{
+    background-image: url("./imagens/timmy.png");
+    background-size: 1150px 400px;
+}
+nav a {
+    background-size: 230px;
+    width: 230px;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.nav-link, .dropdown-item{
+    background-image: url(./imagens/menu.png);
+    color: white;
+    padding-top: 25px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.nav-link:hover, .dropdown-item:hover, .nav-link:visited, .dropdown-item:visited {
+    background-image: url(./imagens/menualt.png);
+    color: white;
+}
+.dropdown-menu{
+    border: 0px solid black;
+    width: 230px;
+}
