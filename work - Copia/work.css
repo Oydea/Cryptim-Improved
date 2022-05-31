@@ -104,3 +104,7 @@ h3.home span {
     text-decoration: underline;
     font-weight: bolder;
 }
+table{
+    color: white!important;
+    border-color: #373b3e!important;
+}
