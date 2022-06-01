@@ -118,3 +118,23 @@ table{
 #summary a{
     color: white;
 }
+.produto{
+    border: 3px solid black;
+    background-color: grey;
+    width: 256px;
+}
+.nomeproduto{
+    font-size: 14px;
+    margin-left: 2px;
+}
+.preco{
+    font-size: 22px;
+    margin-left: 2px;
+}
+.info{
+    font-size: 13px;
+    margin-left: 2px;
+}
+.preco span{
+    text-decoration: line-through;
+}
