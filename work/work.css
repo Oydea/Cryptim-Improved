@@ -33,7 +33,7 @@ body {
 
 nav {
     background-image: url("./imagens/timmy.png");
-    background-size: 1150px 640px;
+    background-size: 100% 640px;
 }
 
 nav a {
